@@ -75,19 +75,19 @@ const MemoryBoard = () => {
           disabled={size === 3 ? true : false}
           onClick={() => handleSize(3)}
         >
-          Three
+          Easy
         </Button>
         <Button
           disabled={size === 6 ? true : false}
           onClick={() => handleSize(6)}
         >
-          Six
+          Medium
         </Button>
         <Button
           disabled={size === 9 ? true : false}
           onClick={() => handleSize(9)}
         >
-          Nine
+          Hard
         </Button>
       </ButtonGroup>
       <div style={{ display: "flex", flexWrap: "wrap" }}>

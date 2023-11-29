@@ -2,6 +2,7 @@ import React from "react";
 import { Box } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import MemoryBoard from "../components/memory/MemoryBoard";
+import CrosswordBoard from "../components/crossword/CrosswordBoard";
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -17,6 +18,7 @@ const Main = ({ activeGame }) => {
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
       <DrawerHeader />
       {activeGame === "memory" && <MemoryBoard />}
+      {activeGame === "crossword" && <CrosswordBoard />}
     </Box>
   );
 };

@@ -8,20 +8,23 @@ const styles = {
     border: "1px solid #eeeeee",
     borderRadius: "3px",
     padding: "15px",
-    width: "250px",
+    width: "225px",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
   },
   matchedCard: {
     border: "1px solid #eeeeee",
     borderRadius: "3px",
     padding: "15px",
-    width: "250px",
-    height: "240px",
+    width: "215px",
+    height: "215px",
   },
   image: {
     height: "200px",
     width: "200px",
   },
-  div: { width: "250px" },
+  div: { width: "225px" },
 };
 
 // export default class MemoryCard extends Component {
