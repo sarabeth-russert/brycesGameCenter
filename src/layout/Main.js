@@ -3,6 +3,8 @@ import { Box } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import MemoryBoard from "../components/memory/MemoryBoard";
 import CrosswordBoard from "../components/crossword/CrosswordBoard";
+import SnakeBoard from "../components/snake/snakeBoard";
+import Christmas from "../components/christmas";
 
 const DrawerHeader = styled("div")(({ theme }) => ({
   display: "flex",
@@ -19,6 +21,8 @@ const Main = ({ activeGame }) => {
       <DrawerHeader />
       {activeGame === "memory" && <MemoryBoard />}
       {activeGame === "crossword" && <CrosswordBoard />}
+      {activeGame === "snake" && <SnakeBoard />}
+      {activeGame === "christmas" && <Christmas />}
     </Box>
   );
 };

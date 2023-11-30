@@ -9,6 +9,7 @@ const styles = {
     borderRadius: "3px",
     padding: "15px",
     width: "225px",
+    height: "225px",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -17,8 +18,8 @@ const styles = {
     border: "1px solid #eeeeee",
     borderRadius: "3px",
     padding: "15px",
-    width: "215px",
-    height: "215px",
+    width: "225px",
+    height: "225px",
   },
   image: {
     height: "200px",
@@ -113,7 +114,12 @@ const MemoryCard = ({ card, handleFlip, flipped }) => {
         </ReactCardFlip>
       ) : (
         <div style={styles.matchedCard}>
-          <Typography>{card.name}</Typography>
+          <Typography variant="body1" textAlign="center" gutterBottom>
+            {card.name}
+          </Typography>
+          <Typography variant="body2" textAlign="center">
+            {card.description}
+          </Typography>
         </div>
       )}
     </div>

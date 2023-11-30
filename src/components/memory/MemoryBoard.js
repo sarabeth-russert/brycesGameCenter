@@ -70,6 +70,7 @@ const MemoryBoard = () => {
         variant="contained"
         aria-label="outlined primary button group"
         fullWidth
+        style={{ marginBottom: "8px" }}
       >
         <Button
           disabled={size === 3 ? true : false}
