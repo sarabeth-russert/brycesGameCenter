@@ -2,7 +2,7 @@ import React, { useCallback, useEffect, useState } from "react";
 import { Button, ButtonGroup } from "@mui/material";
 import memoryData from "./memoryData.json";
 import MemoryCard from "./MemoryCard";
-import SolvedDialogue from "./SolvedDialogue";
+import SolvedDialogue from "../SolvedDialogue";
 
 const shuffle = (array) => {
   return array
