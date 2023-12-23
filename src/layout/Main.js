@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import MemoryBoard from "../components/memory/MemoryBoard";
 import CrosswordBoard from "../components/crossword/CrosswordBoard";
@@ -19,6 +19,17 @@ const Main = ({ activeGame }) => {
   return (
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
       <DrawerHeader />
+      {!activeGame && (
+        <div>
+          <Typography variant="h6">12/22/23</Typography>
+          <Typography variant="body">
+            Hi Bryce! I hope you are having a good time with your games. I added
+            a new crossword for you about DINOSAURS! I hope you have fun.
+            Remember to let me know about 10 min before you face time me on
+            Christmas Game and I will release your scavenger hunt to the web!
+          </Typography>
+        </div>
+      )}
       {activeGame === "memory" && <MemoryBoard />}
       {activeGame === "crossword" && <CrosswordBoard />}
       {activeGame === "snake" && <SnakeBoard />}
