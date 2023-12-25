@@ -1,0 +1,34 @@
+[
+  {
+    "dialogue": "Merry Christmas Bryce! Aunties have cooked up something real special for you this Christmas! We’ll be leading you on your next adventure with this scavenger hunt, made just for you!"
+  },
+  {
+    "dialogue": "First we’ll be starting your journey into the unknown down this mysterious path that leads you to gift number 1",
+    "clue": "Check to see if santa brought something for aunties stocking",
+    "answer": "stocking"
+  },
+  {
+    "dialogue": "Nice job, Bryce! We knew you’d get that one! Don’t get tied down with playing your game just yet though, we’ll have plenty of time to play later! Next on your journey, you’ll want to look for nourishment to make sure you’re ready for the remainder of the trip! You’ll need tools and ingredients for this one, but it will make sure to provide you with the necessary secrets of how to put them all together.",
+    "clue": "You're getting hotter, check here to see if your cookies are done!",
+    "answer": "milk"
+  },
+  {
+    "dialogue": "We are a little concerned with proper attire for this trip...",
+    "clue": "Rub-A-Dub-Dub bubble bath in this tub!",
+    "answer": "elf"
+  },
+  {
+    "dialogue": "Alright! Attire ready! Don’t lose steam just yet though, we’ve got 3 more stops! Which leads us to our next clue! What’s an adventure without something to hold all of your necessities? Like water, snacks, your game even?",
+    "clue": "Look behind where you see your reflection from head to toe",
+    "answer": "frosty"
+  },
+  {
+    "dialogue": "Let’s make sure that bag of yours doesn’t get mixed up with someone else's! How can we make sure of this?",
+    "clue": "Open the door in the hallway that doesn't lead to a room.",
+    "answer": "santa"
+  },
+  {
+    "dialogue": "We are sadly coming to the end of this scavenger hunt, but who knows what this last gift might bring! A gift that keeps on giving maybe? Pop the balloons to celebrate and then open the present after.",
+    "clue": "Where you build your muscles"
+  }
+]
